@@ -1,0 +1,21 @@
+.pages {
+    display: flex;
+    margin-top: 15px;
+}
+
+.page {
+    padding: 8px 12px;
+    border: 1px solid #3399ff;
+    margin-right: 2px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.page:hover {
+    background-color: #3399ff;
+}
+
+.active {
+    background-color: #3399ff;
+    color: #fff;
+}

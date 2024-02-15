@@ -1,0 +1,23 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: #00000099;
+    z-index: 999;
+}
+
+.wrapper {
+    padding: 25px 30px;
+    background: #fff;
+    border-radius: 6px;
+    min-width: 250px;
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,76 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th {
+    height: 40px;
+    text-align: left;
+}
+
+.table th, td {
+    padding: 2px 10px;
+    border-bottom: 1px solid #d8dbe0;
+}
+
+.red {
+    background-color: #ff00000d;
+}
+
+.green {
+    background-color: #00ff000d;
+}
+
+.sum {
+    width: 150px;
+}
+
+.date {
+    width: 130px;
+}
+
+.type {
+    width: 40px;
+}
+
+.name {
+    width: 200px;
+}
+
+.category {
+    width: 60px;
+}
+
+.icon {
+    margin: 6px 0 2px 0;
+    height: 30px;
+}
+
+.action {
+    width: 110px;
+}
+
+.edit,
+.delete {
+    padding: 0 8px;
+    color: #667081;
+    font-size: 24px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.down,
+.up {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.down {
+    color: #ff3e3e;
+}
+
+.up {
+    color: green;
+}
