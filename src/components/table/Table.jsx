@@ -8,7 +8,7 @@ import Pagination from "../pagination/Pagination";
 import Filter from "../filter/Filter";
 import Sorting from "../sorting/Sorting";
 import {SORTING_VALUES} from "../../consts/sorting";
-import {LuEdit2} from "react-icons/lu";
+import { MdEdit } from "react-icons/md";
 import {TiDeleteOutline} from "react-icons/ti";
 import {format} from "date-fns";
 
@@ -72,7 +72,7 @@ const Table = (props) => {
                                 {props.isShowUser && <td>{item.user.first_name}</td>}
                                 {props.isAction &&
                                 <td>
-                                    <button className={css.edit} onClick={() => clickEdit(item)}><LuEdit2/></button>
+                                    <button className={css.edit} onClick={() => clickEdit(item)}><MdEdit /></button>
                                     <button className={css.delete} onClick={() => clickDel(item)}><TiDeleteOutline/></button>
                                 </td>
                                 }
